@@ -11,11 +11,9 @@ var User = sequelize.define("users", {
     },
     firstName: {
         type: Sequelize.STRING
-        allowNull: false
     },
     lastName: {
         type: Sequelize.STRING
-        allowNull: false
     },
     birthday: {
         type: Sequelize.INTEGER,
@@ -37,7 +35,6 @@ var User = sequelize.define("users", {
     },
     password: {
         type: Sequelize.STRING,
-        allowNull: false
     },
 
 }, {
