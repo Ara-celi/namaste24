@@ -20,11 +20,6 @@ app.use(express.static(process.cwd() + "/app/public"));
 // Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
-///requiring handlebars 
-var exphbs = require("express-handlebars");
-  app.engine("handlebars", exphbs({ defaultLayout: "main" }));
-  app.set("view engine", "handlebars");
-
 // Routes
 // =============================================================
 require("./routes/api-routes.js")(app);
