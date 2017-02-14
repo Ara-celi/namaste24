@@ -25,6 +25,9 @@ var User = sequelize.define("users", {
         isEmail: true
         }
     },
+
+    //Here email_confirmation
+
     username: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -35,7 +38,14 @@ var User = sequelize.define("users", {
     },
     password: {
         type: Sequelize.STRING,
-    },
+        allowNull: false,
+        validate: {
+            notEmpty: true,
+            len: [0, Infinity]
+        }
+    }
+
+    //Here password .VIRTUAL
 
 }, {
     timestamps: false

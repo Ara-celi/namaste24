@@ -9,7 +9,7 @@ module.exports = function(app) {
 
   // Index route loads index.html
   app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname + "/index.html"));
+    res.sendFile(path.join(__dirname + "/../appjs/index.html"));
   });
 
 };
