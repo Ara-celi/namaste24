@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Namaste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="app.min.css">
+    <link rel="stylesheet" href="//cdn.kik.com/app/3.0.0/app.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+
+  </head>
+
+  <body>
+<!--======================= page home (1) ========================-->
+    
+<!-- beginning and name of page -->
+    <div class="app-page" data-page="home">
+      <!-- header--> 
+      <div class="app-topbar">
+        <div class="app-title">Namaste</div>
+        <img src="../img/namaste.png" alt="Namaste" style="width:50px;height:50px;">
+      </div>
+<!-- content starts here --> 
+      <div class="app-content">
+        <!-- login & signup buttons -->
+        <div class="app-section">
+          <!-- redirects to sign up page -->
+          <div class="app-button" data-target="page2">Sign Up</div>
+        </div>         
+<!-- username and password input boxes -->        
+        <input class="app-input" placeholder="Email">
+        <input class="app-input" placeholder="Password">
+        <!-- login button -->
+           <!-- redirects to main page -->
+        <div class="app-section"> 
+          <div class="app-button" data-target="page3">Login</div>
+        </div>
+<!-- forgot username/password buttons -->
+        <div class="app-section">
+          <div class="app-button" data-target="page6">Forgot UserName/Password</div>
+        </div>
+<!-- empowerment quote -->
+        <div class="empowerment-quote"> 
+          Empowerment quote will display here: "We will not be defeated!"
+        </div>
+      </div> <!-- closes app-content --> 
+    </div> <!-- closes home-page home --> 
+
+<!--======================= page 2 signup  ========================-->
+    
+<!-- beginning and name of page -->
+    <div class="app-page" data-page="page2">
+      <!-- header--> 
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Namaste - Register</div>
+        <img id="logo" src="../img/namaste.png" alt="Namaste" style="width:50px;height:50px;">
+      </div>
+<!-- content starts here --> 
+      <div class="app-content">
+<!-- registration input boxes -->        
+          <input class="app-input" placeholder="First Name">
+          <input class="app-input" placeholder="Last Name">
+          <input class="app-input" placeholder="Birthday (optional)">        
+          <input class="app-input" placeholder="Email Address">
+          <input class="app-input" placeholder="Verify Email Address">
+          <input class="app-input" placeholder="Username">   
+          <input class="app-input" placeholder="create password">
+          <input class="app-input" placeholder="Verify password">
+
+<!-- Sign up submit button -->
+        <div class="app-section"> 
+          <!-- redirects to home page -->
+          <div class="app-button" data-target="home">Join Us</div>
+        </div>      
+      </div> <!-- closes app-content -->      
+    </div> <!-- closes signup-page 2 -->
+
+<!--======================= page 3 main ========================-->
+
+<!-- beginning and name of page -->
+    <div class="app-page" data-page="page3">
+      <!-- header--> 
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Namaste</div>
+        <img id="logo" src="../img/namaste.png" alt="Namaste" style="width:50px;height:50px;">
+      </div>
+<!-- content starts here --> 
+      <div class="app-content">
+<!-- personalized salutation -->       
+        <div class="personalized-salutation">
+          Good <div class="salutation" ></div>
+          <div class="first-name"></div>
+          Do you need some extra motivation? <br> How can I inspire you today?
+        </div>
+<!-- feelings buttons -->
+        <div class="app-section">
+          <div class="app-button" data-target="page4">Joy/Happiness/Love</div>
+          <div class="app-button" data-target="page4">Fear/Anxiety/Anger</div>
+          <div class="app-button" data-target="page4">Sadness/Grief/Defeated</div>
+          <div class="app-button" data-target="page4">Loved ones</div>
+        </div>
+<!-- enter content and save  -->
+        <div class="app-section">
+          <textarea class="app-input" placeholder="A place for your thoughts"></textarea>
+          <div class="app-button">Save your thoughts</div>
+        </div>
+<!-- sign up for daily quote notifications -->
+        <div class="app-section">
+          <div class="app-button" data-target="page7">Daily Quote Notification</div>
+        </div>         
+      </div> <!-- closes app-content --> 
+    </div> <!-- closes main-page 3 -->
+
+
+<!--======================= page 4 quotes ========================-->
+
+<!-- beginning and name of page -->
+    <div class="app-page" data-page="page4">
+      <!-- header--> 
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Namaste</div>
+        <img id="logo" src="../img/namaste.png" alt="Namaste" style="width:50px;height:50px;">
+      </div>
+<!-- content starts here --> 
+      <div class="app-content">
+<!-- personalized message -->        
+        <div class="quotes-page">
+          <div class="first-name"></div>, here's a quote to better your day:
+        </div>
+<!-- quote goes here -->
+        <div class="chosen-quote"></div>
+<!-- calendar button -->
+        <div class="app-section">
+          <div class="app-button" data-target="page5">My Calendar</div>
+        </div>        
+      </div> <!-- closes app-content --> 
+    </div> <!-- closes main-page 4 -->
+
+
+
+<!--======================= page 5 calendar ========================-->
+
+<!-- beginning and name of page -->
+    <div class="app-page" data-page="page5">
+      <!-- header--> 
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Namaste</div>
+        <img id="logo" src="../img/namaste.png" alt="Namaste" style="width:50px;height:50px;">
+      </div>
+<!-- content starts here -->       
+       <div class="app-content">
+        <div class="calendar-page">
+        We are working really hard to bring you a calendar you are going to LOVE!
+        </div>
+      </div> <!-- closes app-content --> 
+    </div> <!-- closes main-page 5 -->
+
+
+<!--================= page 6 forgot username/pswd ==================-->
+
+<!-- beginning and name of page -->
+    <div class="app-page" data-page="page6">
+      <!-- header--> 
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Namaste - Contact Us</div>
+        <img id="logo" src="../img/namaste.png" alt="Namaste" style="width:50px;height:50px;">
+      </div>
+<!-- content starts here -->       
+      <div class="app-content">
+        <div class="contact-page">
+          Oops! Forgot your password, no problem.  Simply enter the email you registered with and we will send you a link to reset your password. Oh yeah, it might take a few minutes so please be patient. Namaste!
+        </div>     
+<!-- username and password input boxes -->        
+        <div class="app-section">
+          <input class="app-input" placeholder="Email Address">        
+          <div class="app-button">Forgot my password</div>
+        </div>
+<!-- contact us -->        
+          <div class="contact-page">
+          ...because sometimes we all need a little personalized attention,
+          </div>
+        <div class="app-section">
+          <input class="app-input" placeholder="Email Address">
+          <input class="app-input" placeholder="subject">
+          <textarea class="app-input" placeholder="How can I make your day better?"></textarea>
+          <div class="app-button">Send</div>
+        </div>         
+      </div> <!-- closes app-content --> 
+    </div> <!-- closes main-page 6 -->
+
+
+<!--======================= page 7 settings ========================-->
+
+<!-- beginning and name of page -->
+    <div class="app-page" data-page="page7">
+      <!-- header--> 
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Namaste - Settings</div>
+        <img id="logo" src="../img/namaste.png" alt="Namaste" style="width:50px;height:50px;">
+      </div>
+<!-- content starts here -->       
+       <div class="app-content">
+        <div class="settings">Great things come to those who wait... Coming soon!</div>
+      </div> <!-- closes app-content --> 
+    </div> <!-- closes settings-page 7 -->
+
+
+<!--==================================================================-->
+   
+    <script src="zepto.js"></script>
+    <script src="app.min.js"></script>
+    <script src="//zeptojs.com/zepto.min.js"></script>
+    <script src="//cdn.kik.com/app/3.0.0/app.min.js"></script>
+    <script src="http://cdn.kik.com/photo-viewer/1/photo-viewer.js"></script>
+    <script>
+      App.controller('home', function (page) {
+        // put stuff here
+      });
+
+      App.controller('page2', function (page) {
+        // put stuff here
+      });
+
+      try {
+        App.restore();
+      } catch (err) {
+        App.load('home');
+      }
+    </script>
+  </body>
+</html>
+
+

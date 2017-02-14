@@ -1,0 +1,48 @@
+
+.app-page {
+  font-weight: 900;
+  color: white;
+  font-family: fantasy;
+}
+.app-content {
+  background-image: url("https://images.unsplash.com/photo-1452313209253-2823ba17292f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=a6dc37f6b25c496837bbccd33c17131d")
+}
+.app-content .app-button {
+  background-color: teal;
+  color: white;
+}
+.app-content .empowerment-quote {
+  color: white;
+  background-color: tan;
+  font-size: 24px;
+  padding: 10px 10px 10px 10px;
+}
+.app-content .personalized-salutation {
+  color: white;
+  font-size: 18px;
+  padding: 10px 10px 10px 25px;
+}
+.app-content .settings {
+  color: white;
+  font-size: 50px;
+  padding: 50px 10px 10px 25px;
+}
+.app-content .quotes-page {
+  font-size: 18px; 
+  padding: 10px 10px 10px 25px;
+}
+.app-content .chosen-quote {
+  color: white;
+  background-color: tan;
+  font-size: 24px;
+  padding: 10px 10px 10px 10px; 
+}
+.app-content .calendar-page {
+  color: white;
+  font-size: 30px;
+  padding: 50px 10px 10px 25px;
+}
+.app-content .contact-page {
+  font-size: 16px; 
+  padding: 0px 25px 0px 25px;
+}        
