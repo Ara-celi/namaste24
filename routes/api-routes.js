@@ -10,7 +10,7 @@ module.exports = function(app) {
 
   // in ur routes u need an app.post for logins
 app.post('/api/login', function(req,res) {
-    reg.findeOne({
+    reg.findOne({
         where: {
             user: req.body.firstName
         }
