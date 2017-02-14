@@ -24,6 +24,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // =============================================================
 require("./routes/api-routes.js")(app);
 require("./routes/html-routes.js")(app);
+require("./routes/login.js")(app);
 
 
 // Starts the server to begin listening
